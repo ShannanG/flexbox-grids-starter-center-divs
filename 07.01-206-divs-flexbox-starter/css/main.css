@@ -99,40 +99,104 @@ textarea {
 html {
   background-color: #043732;
   height: 100%;
+  width: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  font-size: 1.25em;
+  color:#fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.75em;
   height: 100%;
+  line-height: 1.75em;
+  padding: 0 15em;
 }
+
+header,
+footer {
+  background-color: #043732;
+  width: 100%;
+}
+
+header {
+  margin: 4em 0 6em 0;
+}
+
+footer {
+  border-top: solid #fff 1px;
+  padding-top: 2em;
+}
+
+h1 {
+font-family: 'Rock Salt', cursive;
+font-size: 3.4em;
+letter-spacing: 0.125em;
+}
+
+p {
+  font-size: 2em;
+  line-height: 1.5em;
+  margin: 0 0 1.5em 0;
+}
+
+p span, #extrainfo span {
+  font-family: 'Rock Salt', cursive;
+  letter-spacing: 0.125em;
+}
+
+header,
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+main {
+  align-items: center;
+  background-color: #043732;
+  border-bottom: solid #dedbdc 1px;
+  display: flex;
+  justify-content: center;
+  width: 100%; 
+}
+
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+  align-items: center;
   display: flex;
+  font-weight: 700;
+  flex-flow: row wrap;
   justify-content: space-between;
+  max-width: 1200px;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.5em;
+  align-items: flex-start;
   background-color: #043732;
-  height: 300px;
   display: flex;
+  height: 100%;
+  justify-content: center;
+  margin: 2.5em 0 2.5em 0;
   width: 30%;
-  justify-content:center;
-  align-items: center;
+}
 
+#extrainfo p {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
 }
 
   .div-1, .div-2 {
-    border-right: solid #dedbdc 1px;
-  padding-right: 35px;
+  border-right: solid #dedbdc 1px;
+  padding: 0 2em 0 0;
   }
+
+i {
+  color: #fff;
+  padding: 0 1em 0 0;
+}
 
 
 

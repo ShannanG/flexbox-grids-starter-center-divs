@@ -1,0 +1,23 @@
+[33mcommit cbbe4009128974ca60ccf9cc736079e13c2627cc[m[33m ([m[1;36mHEAD -> [m[1;32mhome-page-edits[m[33m, [m[1;32mmain[m[33m)[m
+Author: shan_g <hi@shancoding.com>
+Date:   Thu Aug 12 17:26:14 2021 +0100
+
+    Added header, main, and footer with socials icons
+
+[33mcommit 9cd3cd9387be0c403941bc09bb6b0f11e73e8ff6[m
+Author: shan_g <hi@shancoding.com>
+Date:   Thu Aug 12 17:25:18 2021 +0100
+
+    Added styles for header, main, and footer
+
+[33mcommit 804a49a71cd0c7f7af2eab60f11a2131886c36fa[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: shan_g <hi@shancoding.com>
+Date:   Tue Aug 3 14:06:14 2021 +0100
+
+    Changed text in index.html, changed bg colour to teal, added border to main.css
+
+[33mcommit 69f93c3c885aaf81a9d75b3e118dde5ffef9bad6[m
+Author: shan_g <hi@shancoding.com>
+Date:   Tue Aug 3 11:42:20 2021 +0100
+
+    Initial commit
